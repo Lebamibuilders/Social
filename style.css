@@ -136,6 +136,21 @@ body {
     backdrop-filter: blur(10px);
 }
 
+.link-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.link-icon-left {
+    font-size: 1.2rem;
+    color: var(--gold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 24px;
+}
+
 .link-btn::before {
     content: '';
     position: absolute;
